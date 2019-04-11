@@ -13,6 +13,7 @@ pi.pinMode(SW_PIN, pi.INPUT)
 pi.pullUpDnControl(SW_PIN, pi.PUD_UP)
 pi.pinMode(BUZZER_PIN, pi.OUTPUT)
 
+button = False
 
 
 try:
